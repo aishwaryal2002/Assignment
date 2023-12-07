@@ -1,0 +1,20 @@
+Initialize Variables:
+candidate1 and candidate2: Initialize two candidate elements.
+count1 and count2: Initialize counters for the respective candidates.
+result: Initialize an empty list to store the majority elements.
+
+First Pass: Find Candidates:
+Iterate through the array, updating candidates and their counters based on the majority voting algorithm.
+If the current number is equal to either candidate, increment the respective counter.
+If the counter for a candidate becomes zero, update the candidate to the current number.
+If the counters for both candidates are non-zero, decrement both counters.
+
+Second Pass: Count Occurrences:
+Reset counters.
+Iterate through the array, counting the occurrences of the two candidates.
+
+Check and Append to Result:
+If the count for a candidate is greater than ⌊ n/3 ⌋, append it to the result list.
+
+Return the Result:
+Return the list of majority elements.

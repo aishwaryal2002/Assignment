@@ -1,0 +1,15 @@
+
+Remove any trailing spaces at the end of the input string to ensure that the function starts counting the last word from the rightmost non-space character.
+
+Initialize Length:
+Initialize a variable to store the length of the last word.
+
+Iterate through Characters in Reverse:
+Iterate through the characters of the string in reverse order (from right to left).
+
+Count Length of Last Word:
+For each character, check if it is a space.
+If a space is encountered, break out of the loop, as it indicates the end of the last word.
+If a non-space character is encountered, increment the length variable.
+
+Return the calculated length of the last word.

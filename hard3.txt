@@ -1,0 +1,13 @@
+Initialize Variables:
+count: Initialize a variable to store the total count of digit 1.
+factor: Set a factor to 1 (used to calculate the contribution of each digit place).
+i: Start with the ones place (1).
+
+Iterate through Digit Places:
+While i is less than or equal to n:
+Calculate divider for the next digit place.
+Update count based on the digit place using a formula that considers the range of numbers.
+Multiply i by 10 to move to the next digit place.
+Return the Result:
+
+Return the total count of digit 1.

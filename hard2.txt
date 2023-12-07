@@ -1,0 +1,9 @@
+Initialize Index i:
+Start with the rightmost index i in the string s.
+
+Find the Longest Palindrome Substring:
+While i is greater than or equal to 0 and the substring from the beginning to index i is not a palindrome:
+Decrement i to consider a shorter substring.
+
+Construct and Return the Result:
+Return the concatenation of the reversed substring starting from index i + 1 and the original string s.
